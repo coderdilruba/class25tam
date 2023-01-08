@@ -1,0 +1,98 @@
+.pricing-text{
+    width: 480px;
+    margin: auto;
+    text-align: center;
+}
+.pricing-text h6{
+    color: blueviolet;
+}
+.pricing-text span{
+    border-bottom: 2px solid blueviolet;
+    padding-bottom: 10px;
+}
+/* card css */
+.card u{
+    width: 150px;
+    border: 1px solid rgb(239, 237, 233);
+    margin:20px auto;
+
+}
+/* banner section css */
+.banner-section{
+    background: url(./free-bg.jpg) no-repeat bottom center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color:#3863d6 ;
+    text-align: center;
+    color: aliceblue;
+
+}
+.banner-text a{
+    color: #3863d6;
+    background-color:aliceblue;
+    width: 120px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+    position: relative;
+}
+.banner-text{
+    width: 450px;
+    margin:150px auto;
+} 
+.banner-text span{
+    border-bottom: 2px solid white;
+    width: 150px;
+    padding-bottom: 10px;
+}
+.banner-text p{
+    margin-top: 15px;
+}
+/* card hover */
+span{
+    position: relative;
+}
+.pricing-section .card:hover{
+    background-color: #3863d6;
+    color: aliceblue;
+    transition: 1s;
+}
+.pricing-section .card:hover ul li{
+    color: aliceblue;
+}
+.card:hover a{
+    color: #3863d6;
+    background-color: aliceblue;
+}
+.style-btn{
+    color: aliceblue;
+    background-color: #3863d6;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 18px;
+    position: relative;
+    z-index: 1;
+    border: none;
+} 
+.style-btn::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 0;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #3863d6; 
+    transition: .7s;
+    z-index: -1;
+}
+.style-btn:hover::after{
+    width: 100%;
+}
+.difff:hover{
+    color: aliceblue!important;
+}
+
+/* banner hover */
